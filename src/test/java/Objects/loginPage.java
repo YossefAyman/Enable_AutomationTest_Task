@@ -37,11 +37,12 @@ public class loginPage {
 	    public void enterPassword(String password) {
 	        passwordField.sendKeys(password);
 	    }
-		/*
-		 * public HomePage clickLoginButton() { loginButton.click(); return new
-		 * HomePage(driver); // Return the next page object }
-		 */
 
+		 public HomePage clickLoginButton() {
+			 loginButton.click();
+			 return new HomePage(driver); // Return the next page object }
+
+		 }
 	    public String getErrorMessage() {
 	        return errorMessage.getText();
 	    }

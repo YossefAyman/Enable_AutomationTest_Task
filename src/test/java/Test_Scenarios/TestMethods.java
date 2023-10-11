@@ -23,6 +23,9 @@ public class TestMethods {
 	    @Test
 	    public void testLogin() {
 			loginPage.enterUsername("username");
+			loginPage.enterUsername("hamada");
+			loginPage.clickLoginButton();
+
 	       
 //	        Assert.assertEquals(welcomeMessage.getText(), "Welcome, testuser!");
 	    }

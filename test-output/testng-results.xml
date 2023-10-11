@@ -6,8 +6,8 @@
     <groups>
     </groups>
     <test started-at="2023-10-10T18:58:01 EET" name="Default test" finished-at="2023-10-10T18:58:01 EET" duration-ms="143">
-      <class name="Test_Scenarios.TestMethods">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test_Scenarios.TestMethods@31190526]" started-at="2023-10-10T18:58:01 EET" name="setUp" finished-at="2023-10-10T18:58:01 EET" duration-ms="93" status="FAIL">
+      <class name="Test_Scenarios.LoginPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test_Scenarios.LoginPage_Test@31190526]" started-at="2023-10-10T18:58:01 EET" name="setUp" finished-at="2023-10-10T18:58:01 EET" duration-ms="93" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable must exist: C:\Users\DELL\eclipse-workspace\Enable_AutomationTest_Task\path\to\chromedriver.exe]]>
@@ -20,7 +20,7 @@ at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
-at Test_Scenarios.TestMethods.setUp(TestMethods.java:18)
+at Test_Scenarios.LoginPage_Test.setUp(TestMethods.java:18)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -49,7 +49,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:Test_Scenarios.TestMethods@31190526]" started-at="2023-10-10T18:58:01 EET" name="testLogin" finished-at="2023-10-10T18:58:01 EET" duration-ms="0" status="SKIP">
+        <test-method signature="testLogin()[pri:0, instance:Test_Scenarios.LoginPage_Test@31190526]" started-at="2023-10-10T18:58:01 EET" name="testLogin" finished-at="2023-10-10T18:58:01 EET" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable must exist: C:\Users\DELL\eclipse-workspace\Enable_AutomationTest_Task\path\to\chromedriver.exe]]>
@@ -62,7 +62,7 @@ at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
-at Test_Scenarios.TestMethods.setUp(TestMethods.java:18)
+at Test_Scenarios.LoginPage_Test.setUp(TestMethods.java:18)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -91,11 +91,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Scenarios.TestMethods@31190526]" started-at="2023-10-10T18:58:01 EET" name="tearDown" finished-at="2023-10-10T18:58:01 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Scenarios.LoginPage_Test@31190526]" started-at="2023-10-10T18:58:01 EET" name="tearDown" finished-at="2023-10-10T18:58:01 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Test_Scenarios.TestMethods -->
+      </class> <!-- Test_Scenarios.LoginPage_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

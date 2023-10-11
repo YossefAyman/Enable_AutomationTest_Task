@@ -13,25 +13,22 @@ public class loginPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-	
-		@FindBy(id = "user-name")
-	    private WebElement usernameField;
-	    
+
+
+		@FindBy(xpath="//*[@id=\"user-name\"]")
+		WebElement userField;
 		@FindBy(id = "password")
-	    private WebElement passwordField;
-	    
+		WebElement passwordField;
 	    @FindBy(id = "login-button")
-	    private WebElement loginButton;
-	    
-	    @FindBy(xpath = "h3[data-test='error']")
-	    private WebElement errorMessage;
+		WebElement loginButton;
+	    @FindBy(xpath = "//h3[@data-test='error']")
+		WebElement errorMessage;
 
-	    // Create a constructor that initializes the web elements
-	    
 
-	    // Define the methods that perform actions on the web elements
-	    public void enterUsername(String username) {
-	        usernameField.sendKeys(username);
+
+	    public void enterUsername(String username) throws InterruptedException {
+			Thread.sleep(2000);
+	        userField.sendKeys(username);
 	    }
 
 	    public void enterPassword(String password) {
